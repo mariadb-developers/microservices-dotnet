@@ -21,7 +21,7 @@ This repository provides a simple example of a microservice architecture using a
     1. [Get the code](#code)
     2. [Create the schema](#schema)
     3. [Anatomy of the app](#app)
-    4. [Confifgure the application](#config)
+    4. [Configure the application](#config)
     5. [Build and run the app](#build-run)
 4. [Helpful Resources](#helpful-resources)
 5. [Support and contribution](#support-contribution)
@@ -118,7 +118,7 @@ This application is made of three parts:
 * [Products.API](Products.API) - a .NET 6 REST project that uses [Entity Framework 6](https://docs.microsoft.com/en-us/ef/ef6/) to connect to and communicate with an underlying MariaDB database.
 * [Gateway.API](Gateway.API) - a .NET project that uses [Ocelot](https://github.com/ThreeMammals/Ocelot) to function as an API gateway for the Customers.API and Products.API microservices.
 
-### Confifgure the application to use your MariaDB database <a name="config"></a>
+### Configure the application to use your MariaDB database <a name="config"></a>
 
 For the `Customers.API` and `Products.API` microservice projects to use your MariaDB database they must first be configured. The projects already contain connection strings, but depending on your setup you may need to update them.
 
@@ -140,7 +140,7 @@ Webinar: [Creating Microservices with .NET 6, Entity Framework and MariaDB](http
 
 ## Support and Contribution <a name="support-contribution"></a>
 
-Please feel free to submit PR's, issues or requests to this project project directly.
+Please feel free to submit PR's, issues or requests to this project directly.
 
 If you have any other questions, comments, or looking for more information on MariaDB please check out:
 
